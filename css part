@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .glass-box {
+    backdrop-filter: blur(14px);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    max-width: 700px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  }
+  
+  .neon-text {
+    color: #0ff;
+    text-shadow: 0 0 8px #0ff, 0 0 12px #0ff;
+  }
+  
+  .btn-neon {
+    background: transparent;
+    border: 2px solid #0ff;
+    color: #0ff;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-neon:hover {
+    background: #0ff;
+    color: #000;
+    box-shadow: 0 0 12px #0ff;
+  }
+  
+  #result li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #0ff;
+    transition: 0.3s;
+  }
+  
+  #result li:hover {
+    background: rgba(0, 255, 255, 0.1);
+    transform: scale(1.02);
+  }
+  
+  .max-w-500 {
+    max-width: 500px;
+  }
